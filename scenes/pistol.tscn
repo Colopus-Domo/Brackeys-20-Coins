@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqbw8tlmgg1vv"]
+
+[ext_resource type="Texture2D" uid="uid://34c2ix7mbxoo" path="res://assets/sprites/pistol.png" id="1_igbvm"]
+
+[node name="Pistol" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Marker2D" type="Marker2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Marker2D"]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_igbvm")
